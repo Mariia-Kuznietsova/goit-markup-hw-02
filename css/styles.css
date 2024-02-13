@@ -20,6 +20,10 @@ button {
   font-family: inherit;
 }
 
+/* img {
+  display: block;
+} */
+
 /* ===== /Common styles ===== */
 
 /* ===== Page Header styles ===== */
@@ -59,6 +63,9 @@ button {
 .address-link:focus {
   color: #404bbf;
 }
+/* .address-link.active {
+  color: #404BBF;
+} */
 
 /* ===== /Page Header styles ===== */
 
@@ -88,7 +95,7 @@ button {
 /* ===== /Segment Hero styles ===== */
 
 /* ===== Segment Our Benefits styles ===== */
-.benefits-title-hidden {
+/* .benefits-title-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -99,7 +106,11 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+} */
+.benefits-title-hidden {
+  visibility: hidden;
 }
+
 .benefits-item {
   font-weight: 500;
   font-size: 20px;
@@ -126,7 +137,7 @@ button {
   text-align: center;
   color: #2e2f42;
 }
-.team-list {
+.team-member {
   background-color: #FFFFFF;
 }
 .team-member-name {
