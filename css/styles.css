@@ -20,9 +20,6 @@ button {
   font-family: inherit;
 }
 
-img {
-  display: block;
-}
 /* ===== /Common styles ===== */
 
 /* ===== Page Header styles ===== */
@@ -62,9 +59,7 @@ img {
 .address-link:focus {
   color: #404bbf;
 }
-.address-link.active {
-  color: #404bbf;
-}
+
 /* ===== /Page Header styles ===== */
 
 /* ===== Segment Hero styles ===== */
@@ -73,7 +68,7 @@ img {
 }
 .hero-title {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -125,11 +120,14 @@ img {
 }
 .team-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+.team-list {
+  background-color: #FFFFFF;
 }
 .team-member-name {
   font-weight: 500;
@@ -150,7 +148,7 @@ img {
 /* ===== Segment Our Portfolio styles ===== */
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
